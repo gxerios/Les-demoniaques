@@ -1,0 +1,43 @@
+.titre{
+	text-align: center;
+}
+
+#menu{
+
+}
+
+#menu ul{
+	margin:  0;
+	padding: 0;
+}
+
+#menu li{
+	list-style-type: none;
+	float: left; 
+	position: relative;
+}
+
+#menu ul li {
+	text-decoration: none;
+	display: block;
+	width: 190px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	background-color: #66E0AE;
+}
+#menu nav ul li{
+		
+		text-align: center;
+}
+
+#menu ul ul{
+	position: absolute;
+	top: 30px;
+	visibility: hidden;
+}
+
+#menu ul li:hover ul{
+	visibility: visible;
+}
+
